@@ -1,6 +1,6 @@
 from datetime import date
 from src.models import SimpleFinePolicy
-from src.library import Library
+from services import Library
 
 def main():
     library = Library(SimpleFinePolicy(per_day=5.0))
