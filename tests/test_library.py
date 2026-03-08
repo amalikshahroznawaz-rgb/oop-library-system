@@ -1,7 +1,7 @@
 import unittest
 from datetime import date
 from src.models import SimpleFinePolicy
-from services import Library
+from src.services import Library
 
 class TestLibrarySystem(unittest.TestCase):
     def setUp(self):
